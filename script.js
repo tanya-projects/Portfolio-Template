@@ -32,10 +32,8 @@ navItems.forEach((item) => {
     document.querySelector(this.getAttribute('href')).scrollIntoView({
       behavior: 'smooth',
     });
-    if (window.innerWidth < 476) {
+    if (window.innerWidth < 550) {
       menuVisibilityChanger(e, '100%', '100%');
     }
   });
 });
-
-// Send message
